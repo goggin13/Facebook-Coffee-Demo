@@ -28,6 +28,8 @@ And these lines to `/etc/hosts`:
 127.0.0.1       fb_coffee_demo.com
 `
 
+If you chose a domain different than `fb_coffee_demo.com`, then replace `fb_coffee_demo.com` with your domain in index.coffee.
+
 After kicking apache with `sudo apachectl graceful`, I can now visit fb_coffee_demo.com in my browser.
 
 ### Setting up your Facebook App

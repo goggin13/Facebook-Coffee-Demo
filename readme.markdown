@@ -4,7 +4,7 @@ This is a very bare bones starter-kit for working with the Facebook Javascript S
 
 Facebook docs are available [here](http://developers.facebook.com/docs/reference/javascript/).
 
-Checkout [coffee/index.coffee](coffee/index.coffee) for the code samples, otherwise to view the demo following the instructions in the next section.
+Checkout [coffee/index.coffee](coffee/index.coffee) for the code samples, otherwise to set up the demo follow the instructions in the next section.
 
 #### Setup
 

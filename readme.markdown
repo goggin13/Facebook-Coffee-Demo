@@ -10,7 +10,7 @@ In order to run this demo, you must serve the index.html file from a domain, (an
 
 On OSX, I added these lines to `/etc/apache2/extra/httpd-vhosts.conf`:  
 
-`
+`  
 <VirtualHost *:80>  
   ServerName fb_coffee_demo.com  
   ServerAlias fb_coffee_demo.com  
@@ -19,7 +19,7 @@ On OSX, I added these lines to `/etc/apache2/extra/httpd-vhosts.conf`:
     Allow from all   
   </Directory>    
 </VirtualHost>  
-`
+`  
 
 Of course, change the 2 paths there to wherever you have downloaded these files.
 

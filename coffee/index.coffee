@@ -23,6 +23,7 @@ window.fbAsyncInit = ->
         set_status "Requesting Facebook login..."
         FB.login auth_callback, {scope: 'publish_stream'}
  
+ 
 # Update the list of messages on the page
 window.set_status = (text) -> 
   $status_div = ($ '#status')
@@ -46,6 +47,7 @@ get_current_user_info = (callback) ->
     set_status "Good to see you, #{response.name}!"  
     callback(response) if callback?
 
+
 # Upload a photo to the users photo stream
 upload_a_photo = (callback) ->
   set_status 'Posting user photo...'
@@ -60,6 +62,7 @@ upload_a_photo = (callback) ->
     else
       set_status "Photo ID: #{response.id}"
     callback(response) if callback?
+
 
 # Post a sample item to the user's feed
 post_to_users_feed = (callback) ->
@@ -79,6 +82,7 @@ post_to_users_feed = (callback) ->
     else
       set_status "Post ID: #{response.id}"
     callback(response) if callback?
+
 
 # Set up events
 ($ document).ready ->
